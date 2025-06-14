@@ -7,9 +7,18 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App font-inter">
-      <Hero />
-      <About />
-      <Contact />
+      <Navbar />
+      <main className="pt-24"> {/* Add padding-top so content isn't hidden behind fixed navbar */}
+        <section id="home">
+          <Hero />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
+      </main>
     </div>
   );
 }
