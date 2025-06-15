@@ -57,19 +57,13 @@ const Contact = () => {
       title: 'Email',
       value: 'alex@example.com',
       description: 'Drop me a line anytime',
-      link: 'mailto:alex@example.com'
+      link: 'mailto:ayushdbpc2005@gmail.com'
     },
-    {
-      icon: Phone,
-      title: 'Phone',
-      value: '+1 (555) 123-4567',
-      description: 'Call me for urgent matters',
-      link: 'tel:+15551234567'
-    },
+
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Kolkata, India',
       description: 'Available for remote work',
       link: '#'
     }
