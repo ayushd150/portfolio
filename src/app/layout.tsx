@@ -6,7 +6,7 @@ import { ThemeProvider } from '@/context/ThemeContext';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Football Portfolio - Full Stack Developer',
+  title: 'Ayush Das',
   description: 'Interactive football-themed portfolio showcasing technical skills as players in formation',
   keywords: 'portfolio, developer, football, full-stack, react, next.js',
   authors: [{ name: 'Your Name' }],

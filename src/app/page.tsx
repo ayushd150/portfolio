@@ -1,7 +1,8 @@
 'use client';
 
-import FootballPortfolio from '@/components/FootballPortfolio';
+import FootballLanding from '@/components/FootballLanding';
+
 
 export default function Home() {
-  return <FootballPortfolio />;
+  return <FootballLanding />;
 }
